@@ -1,0 +1,188 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.body {
+    font-family: "Young Serif", serif;
+
+
+}
+
+.container {
+    padding: 50px;
+}
+
+.section-one {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.section-one__name {
+    font-size: 60px;
+}
+
+.section-one__role {
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.section-one__contect {
+    text-decoration: none;
+    background-color: orangered;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.section-two,
+.section-three,
+.section-four,
+.section-five {
+    margin-top: 50px;
+}
+
+.section-two__description {
+    font-size: larger;
+}
+
+.section-three {
+    background-color: gray;
+    color: whitesmoke;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 10px;
+
+
+}
+
+.section-three__des {
+    font-size: 30px;
+    color: black;
+}
+
+.section-three__projects {
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+.section-four {
+    margin-top: 20px;
+    background-color: orangered;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 10px;
+
+
+}
+
+.section-four__interest {
+    font-size: 30px;
+    color: black;
+}
+
+.section-four__list {
+    font-size: large;
+    margin-top: 10px;
+    margin-left: 20px;
+    color: white;
+}
+
+.section-five {
+    background-color: black;
+    padding: 20px;
+}
+
+.section-five__footer {
+    color: aliceblue;
+    font-size: large;
+}
+
+.section-five__footer a {
+
+    color: skyblue;
+
+}
+
+.section-five__name {
+    color: aliceblue;
+    font-size: large;
+}
+
+/* contect page */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    padding: 30px;
+}
+
+.portfolio {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.portfolio__name {
+    font-size: 60px;
+}
+
+.portfolio__role {
+    font-size: larger;
+}
+
+.portfolio__home a {
+    text-decoration: none;
+    background-color: orangered;
+    padding: 10px;
+    color: aliceblue;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+.form,.footer{
+    margin-top: 20px;
+    font-size: larger;
+}
+.form__input,.form__input,.form__textarea,.form__button{
+    margin-top: 10px;
+    font-size: large;
+
+}
+.form__input{
+    border: none;
+    border-bottom: solid 1px gray;
+    padding: 10px;
+   
+}
+.form__textarea{
+    border: none;
+    padding: 10px;
+}
+.form__button{
+    background-color: blue;
+    padding: 10px;
+    border: solid 1px black;
+    color: aliceblue;
+}
+.form__button:hover{
+    background-color: black;
+}
+.footer{
+    background-color: black;
+    padding: 20px;
+    color:whitesmoke;
+}
+.footer__link{
+    color: skyblue;
+    font-size: medium;
+}
